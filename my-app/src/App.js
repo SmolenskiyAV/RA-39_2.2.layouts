@@ -1,4 +1,3 @@
-/* eslint-disable react/style-prop-object */
 import "./css/main.css";
 import Store from "./components/Store";
 

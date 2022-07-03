@@ -46,7 +46,7 @@
   justify-content: space-around;
 }
 
-.ShopCard img {
+.ShopCard img { /*стили изображения*/
   width: 100%;       /*растягиваем изображение на всю ширину блока-контейнера*/
   height: 100%;
   position: absolute;
@@ -69,14 +69,6 @@
   display: flex;
   
 }
-
-.list_view {
-  display: flex;
-  color: #ffffff;
-  margin: 1%;
-  flex-direction: column;
-}
-
 
 .iconContainer {
   width: 37px;
@@ -171,6 +163,14 @@
   
 }
 
+
+.list_view {
+  display: flex;
+  color: #ffffff;
+  margin: 1%;
+  flex-direction: column;
+}
+
 .btn2 {
   margin-left: 10%;
   border-radius: 20px; 
@@ -192,6 +192,11 @@
 
 /* Add a dark background to the active button */
 .btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.btn2.active {
   background-color: #666;
   color: white;
 }

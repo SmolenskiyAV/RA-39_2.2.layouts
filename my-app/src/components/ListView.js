@@ -6,7 +6,7 @@ export default function CardsView(props) {
   const { products } = props;
     
 
-  function ShopCard(itemArray, index) { // функция отрисовки элемента
+  function ShopCard(itemArray, index) { // функция отрисовки элементов в виде табличного списка
 
     const name = itemArray.name;
     const color = itemArray.color;
@@ -28,7 +28,7 @@ export default function CardsView(props) {
     )
   };
   
-  return ( // отрисовка всего отфтльтрованного массива элементов
+  return ( // отрисовка всего массива элементов
     <div className="list_view">
           {products.map((itemArray, index) => ShopCard(itemArray, index))}
       </div>
